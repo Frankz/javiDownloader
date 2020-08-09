@@ -13,6 +13,7 @@
     "electron": "^9.1.2"
   },
   "dependencies": {
-    "electron-wix-msi": "^2.2.0"
+    "electron-wix-msi": "^2.2.0",
+    "youtube-mp3-downloader": "^0.7.3"
   }
 }

@@ -9,11 +9,21 @@
   <body>
     <h1>Descargar Música de Youtube</h1>
     <div>
-      <div id="count">
+      <div id="DownloadBox">
+        <input name="urlYoutube"
+        id="urlYoutube"
+        class="urlYoutube"
+        type="text"
+        maxlength="1000"
+        width="48"
+        height="48"
+        label="YouTube: "
+        ></input></br>
+        <button id="start">Start</button></br>
+        <div id="urlYoutubeIndicted"></div>
         
       </div>
-      <button id="start">Start</button>
-      <script>require('./renderer')</script>
     </div>
+    <script>require('./renderer')</script>  
   </body>
 </html>
