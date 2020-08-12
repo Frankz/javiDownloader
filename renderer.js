@@ -1,5 +1,8 @@
 const {ipcRenderer} = require('electron')
 
+
+// ################################################
+
 document.getElementById('start').addEventListener("click", _ => {
     //console.log('start clicked!')
     //ipcRenderer.send('countdown-start') 
@@ -13,7 +16,7 @@ document.getElementById('start').addEventListener("click", _ => {
 ipcRenderer.on('download', (evt, urlYoutube) => {
     console.log("urlYoutube: " + urlYoutube)
     document.getElementById('urlYoutubeIndicted').innerHTML = urlYoutube
-    window.alert(urlYoutube);
+    //window.alert(urlYoutube);
 })
 
 ipcRenderer.on('countdown', (evt, count) => {

@@ -22,7 +22,6 @@ const msiCreator = new MSICreator({
     name: 'DescargarMusicaDeYouTube App de Escritorio',
     manufacturer: 'DescargarMusicaDeYouTube Inc',
     version: '1.0.0',
-
     // Configure installer User Interface
     ui: {
         chooseDirectory: true
